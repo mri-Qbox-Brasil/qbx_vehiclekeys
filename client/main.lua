@@ -144,7 +144,7 @@ RegisterCommand('togglelocks', function()
     ToggleVehicleLocks(GetVehicle())
 end)
 
-RegisterKeyMapping('mri_Qengine', locale("info.engine"), 'keyboard', 'Z')
+RegisterKeyMapping('mri_Qbox_engine', locale("info.engine"), 'keyboard', 'Z')
 RegisterCommand('engine', function()
     TriggerEvent("qb-vehiclekeys:client:ToggleEngine")
 end)
