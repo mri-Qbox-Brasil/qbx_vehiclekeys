@@ -103,7 +103,7 @@ return {
 
     -- Carjack Settings
     carjackEnable = true, -- Enables the ability to carjack pedestrian vehicles, stealing them by pointing a weapon at them
-    carjackingTimeInMs = 7500, -- Time it takes to successfully carjack in miliseconds
+    carjackingTimeInMs = 1000, -- Time it takes to successfully carjack in miliseconds
     delayBetweenCarjackingsInMs = 10000, -- Time before you can attempt another carjack in miliseconds
     carjackChance = { -- Probability of successful carjacking based on weapon used
         [WeaponTypeGroups.MELEE] = 0.0,
